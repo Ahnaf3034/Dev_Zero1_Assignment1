@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Pottery Start */
+.bttn{
+    background-color: #ffbf00;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    text-transform: uppercase;
+}
+.pottery{
+    height: 700px;
+    width: 100%;
+    background-image: url(./Images/Image_1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 20px 40px;
+}
+.sample1{
+    float: left;
+    width: 50%;
+}
+.sample1 h1{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: 12;
+    padding-top: 200px;
+}
+.sample1 p{
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 10;
+    padding: 25px 0 25px 0;
+}
+/* Pottery End */
+/* about start */
+.about_form{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+.about_form .about{
+    float: left;
+    height: 600px;
+    width: 50%;
+    background-color: #696969;
+}
+.about_form .about h2{
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+    font-weight: 10;
+    padding: 200px 0 20px 200px;
+}
+.about_form .about p{
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+    font-weight: 10;
+    padding: 10px 15px 20px 100px;
+}
+.registration{
+    float: right;
+    height: 600px;
+    width: 50%;
+    background-color: #353935;
+}
+.reg_form{
+    padding: 200px 0 0 200px;
+}
+.reg_form h2{
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+    font-weight: 10;
+    margin-bottom: 20px;
+}
+.reg_form p{
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+    font-weight: 10;
+    padding-left: 30px;
+}
+.p2{
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+    font-weight: 10;
+    padding-left: 250px;
+}
+.p2 p{
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+    font-weight: 10;
+    margin-bottom: 20px;
+}
+/* About End */
+/* workshop start */
+.workshop{
+    height: 500px;
+    width: 100%;
+}
+.workshop .workshop_form{
+    float: left;
+    width: 30%;
+    padding-left:40px ;
+}
+.workshop .workshop_form h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 200px 0 20px 0;
+}
+.workshop .workshop_form p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 10px 30px 20px 0;
+}
+.workshop .workshop_img{
+    float: right;
+    width: 70%; 
+}
+.workshop .workshop_img img{
+    width: 100%;
+}
+/* workshop end */
+.membership{
+    height: 700px;
+    width: 100%;
+}
+.membership .mem_img{
+    float: left;
+    width: 70%;
+}
+.membership .mem_img img{
+    height: 700px;
+    width: 100%;
+}
+.membership .mem_form{
+    float: right;
+    height: 700px;
+    width: 30%;
+    background-color: #353935;
+    padding-left: 40px;
+}
+.membership .mem_form h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 200px 0 20px 0;
+    color: white;
+}
+.membership .mem_form p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 10px 40px 20px 0;
+    color: white;
+}
+/* Membership end */
+/* Student start */
+.Student{
+    height: 830px;
+    width: 100%;
+    background-color: #353935;
+}
+.Student .stu_img{
+    height: 500px;
+    width: 100%;
+}
+.Student .stu_img img{
+    height: 500px;
+    width: 100%;
+}
+.Student .stu_form_container{
+    float: left;
+    position: absolute;
+}
+.Student .stu_form{
+   width: 40%;
+   height: 330px;
+   background-color: white;
+   padding: 100px 40px 100px 40px;
+   margin-left: 200px;
+}
+.Student .stu_form h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 0 0 20px 0;
+    color: black;
+ }
+ .Student .stu_form p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 10px 40px 20px 0;
+    color: black;
+ }
+ .Student .stu_form h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 0 0 40px 0;
+    color: black;
+ }
+ /* Student end */
+ /* Subscribe start */
+ .subscribe{
+     height: 400px;
+     width: 100%;
+     background-color: #353935;
+     margin-top: 1.5px;
+ }
+ .subscribe h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 150px 0 20px 500px;
+    color: white;
+ }
+ .subscribe p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 8;
+    padding: 10px 300px 40px 300px;
+    color: white;
+ }
+ .subscribe form{
+    padding: 10px 300px 40px 500px;
+ }
+ .subscribe form input{
+    width: 45%;
+    padding: 8px;
+    background-color: #353935;
+    border: 2px solid white;
+    margin-right: 5px;
+    color: white;
+    font-weight: 5;
+    letter-spacing: 1px;
+ }
